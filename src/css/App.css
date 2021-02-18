@@ -1,0 +1,205 @@
+#principal {
+
+    background-image: url(../images/fondoapp.jpg);
+    width: 100%;
+    height: auto;
+    position: absolute;
+   
+}
+
+#cards{
+    background-image: url(../images/fondoapp.jpg);
+    background-color: rgba(245, 245, 245, 1);
+  opacity: .6;
+  width: 80%;
+  height: 100%;
+  border: cornsilk;
+  border-style: double;
+  
+    
+}
+
+#col-player {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+    }
+
+ .card-header{
+
+   font-style: italic;
+   font-size: medium;
+   color: cornsilk;
+    
+   border-bottom: 1px outset;
+   height: 50px;
+   
+   
+ }
+
+ .btn-secondary{
+
+    font-style: italic;
+    font-size: medium;
+   color: cornsilk;
+  box-shadow:5px 5px 2px 3px cornsilk;
+   
+    
+ }
+
+ #jugar{
+
+    background-color:rgb(72, 61, 139);
+    color: cornsilk;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 20px;
+    height: 35px;
+ }
+
+#random {
+
+    margin-top: 15px;
+    font-style: italic;
+
+}
+
+.dropright{
+
+    
+    margin-top: 70px;}
+
+
+
+
+    #cruzado{
+
+        max-width: 5%;
+      margin-left: 1px;
+      margin-right: 10px;
+   
+    }
+
+
+    #score {
+
+      max-width: 1.6em;
+      position: relative;
+     bottom: 50px;
+     margin-right: 20px;
+
+    }
+
+    #textScore {
+
+      position: relative;
+      bottom: 22px;
+      margin-left: 380px;
+
+    }
+
+    #numero {
+
+     
+      position: relative;
+      bottom: 73px;
+      margin-left: 468px;
+    }
+
+    #trofeo {
+
+      max-width: 5%;
+     position: relative;
+     top: 40px;
+     right: 185px;
+
+    }
+
+    #cardOne {
+
+      background-image: url(../images/fondoapp.jpg);
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .6;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    bottom: 50px;
+    border: cornsilk;
+  border-style: double;
+
+    }
+
+    #cardTwo {
+
+        
+      background-image: url(../images/fondoapp.jpg);
+      background-color: rgba(245, 245, 245, 1);
+      opacity: .6;
+      width: 80%;
+      height: 80%;
+      position: relative;
+      bottom: 22px;
+      border: cornsilk;
+    border-style: double;
+
+    }
+
+    #DropOne {
+
+     position: relative;
+     bottom: 40px;
+
+    }
+
+    #dropTwo {
+
+      position: relative;
+     bottom: 80px;
+
+    }
+
+    #jugarTwo {
+
+      position: relative;
+      right: 350px;
+      background-color: rgb(72, 61, 139);
+      font-style: italic;
+      color: cornsilk;
+    }
+
+#principal2{
+
+  background-image: url(../images/fondoapp.jpg);
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+#seleccion {
+
+  font-size: 15px;
+  text-align: center;
+  font-family: italic;
+  color:cornsilk;
+  text-shadow: 1px 2px cornflowerblue;
+}
+
+#volver {
+
+  background-color:rgb(72, 61, 139);
+  opacity: .5;
+  border-color: darkgray;
+ color: cornsilk
+}
